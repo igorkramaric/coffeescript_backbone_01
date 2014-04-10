@@ -1,0 +1,19 @@
+<h1>Hello from Backbone{{test_num}}{{ver_num}}</h1>
+
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+
+{% if ver_num == "n" or  ver_num == "o" %}
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <!--<script src="http://documentcloud.github.com/underscore/underscore.js"></script>-->
+    <!--<script src="http://documentcloud.github.io/backbone/backbone.js"></script>-->
+{% else %}
+    <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+    <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+{% endif %}
+<script type="text/javascript" src="/scripts/test_bb{{test_num}}{{ver_num}}.js"></script>
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>-->
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>-->
+
+<body></body>
