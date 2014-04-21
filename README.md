@@ -17,3 +17,7 @@ What are new version changes
 Moved to much newer versions of underscore/backbone/jquery.
 In (this) first commit just listenTo call instead of bind call to collection, a few small changes while playing.
 
+Howtos
+------
+To auto compile on any change in any coffee file:
+coffee --watch --compile scripts
